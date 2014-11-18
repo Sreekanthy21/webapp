@@ -40,7 +40,7 @@ class Customers(models.Model):
 class Products(models.Model):
     """
        Products class for products table.
-    """"
+    """
     pid = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=50)
     value = models.FloatField()
