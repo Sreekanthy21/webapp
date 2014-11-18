@@ -1,0 +1,59 @@
+
+.navbar .navbar-inner {
+    background-image: none;
+    background: #002200; , 
+    background: -webkit-gradient(linear, left top, left bottom, from(#112211), to(#221122));  
+    background: -moz-linear-gradient(top, #112211, #221122);  
+   // height: 45px;
+    margin: 0;
+    padding: 0;
+//    overflow:hidden;
+
+}
+
+.navbar .brand {
+    margin:0;
+    padding:0;
+    //padding: 12px 3px 3px;
+    font-family: Blairmditc TT;
+    font-size:28px;   
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-search .search-query:-moz-placeholder {
+    color: #676767;
+}
+
+.navbar .navbar-search .search-query {
+    background-color: #FFFFFF;
+}
+
+
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.navbar-inverse .nav .active > a, 
+.navbar-inverse .nav .active > a:hover, 
+.navbar-inverse .nav .active > a:focus {
+    background-color: transparent;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color: transparent;
+}
+
+.navbar-inverse .active .navbar-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar-text a {
+    text-decoration: none;
+}
+
+

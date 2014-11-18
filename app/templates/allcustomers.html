@@ -1,0 +1,125 @@
+{% extends "site_base.html" %}
+
+{% block content %}
+<style>
+h2 {
+	border-bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+tfoot td {
+	background-color: #F1F1F1;
+}
+
+
+th {
+	background-color: #FFFFFF;
+}
+
+.middle-btn {
+	margin-right: 10px;
+}
+
+.search-query {
+	margin: 0px 0 0px 0;
+}
+
+form {
+	margin: 0;
+}
+
+.table .align-center {
+	text-align: center;
+}
+
+.play-img {
+       width: 18px; 
+       height: 18px;
+}
+
+.play-img1 {
+       width: 24px; 
+       height: 24px;
+       margin-top: 8px;
+}
+
+.top-of-page-img {
+		width: 48px;
+		height: 48px;
+}
+
+.table .progress {
+	margin-bottom: 0px;
+}
+
+.info-table td {
+	border-top: none;
+}
+
+.info-table .data-type-label {
+	width: 180px;
+}
+
+a {
+   /* color: #333333;
+   */
+}
+
+#overlay {
+        position: absolute;
+        background: url("/static/images/spinner.gif") no-repeat scroll center center #FFF;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:100%;
+        background-color: #000;
+        filter:alpha(opacity=50);
+        -moz-opacity:0.5;
+        -khtml-opacity: 0.5;
+        opacity: 0.5;
+        z-index: 998;
+}
+
+.nav-pills > li > a {
+   	background-color: #F4F4F4;
+}
+
+
+</style>
+
+  <style>
+	.key {
+		width: 340px;
+	}
+  </style>
+
+  <div class="container-fluid" style="margin-top: 1px;">
+
+    <h1>List of all Customers</h1>
+        <table class="table table-bordered">
+            <tr>
+                <th>#</th>
+                <th>Username</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            {%for user in users%}
+	        <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{user.username}}</td>
+                    <td>{{user.fullname}}</td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.mobile}}</td>
+                    <td>{{user.city}}</td>
+                    <td>{{user.country}}</td>
+                </tr>
+            {%endfor%}
+        </table>
+    </br>
+  </div>
+{% endblock %}
+

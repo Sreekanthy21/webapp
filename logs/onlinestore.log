@@ -1,0 +1,73 @@
+2014-11-18 02:17:24,595 INFO sample A row is added successfully !!!
+2014-11-18 02:17:24,596 INFO sample A row is added successfully !!!
+2014-11-18 02:18:32,157 INFO sample A row is added successfully !!!
+2014-11-18 02:33:21,753 INFO sample Home Page request has been made..
+2014-11-18 02:33:21,766 INFO sample Displayed Welcome Message !!!
+2014-11-18 02:46:27,634 INFO OnlineStore Home Page request has been made..
+2014-11-18 02:46:27,638 INFO OnlineStore Displayed Welcome Message !!!
+2014-11-18 02:47:25,281 INFO OnlineStore Home Page request has been made..
+2014-11-18 02:49:28,247 INFO OnlineStore Home Page request has been made..
+2014-11-18 02:49:28,404 DEBUG django.db.backends (0.036) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1  LIMIT 21; args=(1,)
+2014-11-18 02:51:34,211 DEBUG django.db.backends (0.064) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1  LIMIT 21; args=(1,)
+2014-11-18 02:54:34,836 INFO OnlineStore Home Page request has been made..
+2014-11-18 02:54:34,851 DEBUG django.db.backends (0.001) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 02:55:14,792 DEBUG django.db.backends (0.000) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 02:56:54,529 DEBUG django.db.backends (0.001) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 02:57:03,357 DEBUG django.db.backends (0.001) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 02:57:23,517 DEBUG django.db.backends (0.000) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 02:58:10,007 INFO OnlineStore Home Page request has been made..
+2014-11-18 02:58:10,018 DEBUG django.db.backends (0.000) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1  LIMIT 21; args=(1,)
+2014-11-18 02:58:10,019 DEBUG django.db.backends (0.000) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 02:58:18,120 DEBUG django.db.backends (0.001) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1  LIMIT 21; args=(1,)
+2014-11-18 02:58:18,123 DEBUG django.db.backends (0.000) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 02:59:28,823 INFO OnlineStore Home Page request has been made..
+2014-11-18 02:59:28,862 DEBUG django.db.backends (0.026) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1  LIMIT 21; args=(1,)
+2014-11-18 02:59:28,863 DEBUG django.db.backends (0.000) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 03:05:30,068 DEBUG django.db.backends (0.001) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 03:08:36,024 DEBUG django.db.backends (0.000) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 03:10:06,901 DEBUG django.db.backends (0.000) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 03:13:01,661 INFO OnlineStore Home Page request has been made..
+2014-11-18 03:13:01,678 DEBUG django.db.backends (0.001) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 03:51:55,825 DEBUG django.db.backends (0.001) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 04:00:16,105 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:06:00,228 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:10:06,122 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:10:29,109 DEBUG django.db.backends (0.055) SELECT `products`.`name`, `products`.`value`, `products`.`create_date`, `products`.`instock` FROM `products`; args=()
+2014-11-18 04:11:26,703 DEBUG django.db.backends (0.000) SELECT `products`.`name`, `products`.`value`, `products`.`create_date`, `products`.`instock` FROM `products`; args=()
+2014-11-18 04:12:03,755 DEBUG django.db.backends (0.004) SELECT `products`.`name`, `products`.`value`, `products`.`create_date`, `products`.`instock` FROM `products`; args=()
+2014-11-18 04:12:34,045 DEBUG django.db.backends (0.001) SELECT `products`.`name`, `products`.`value`, `products`.`create_date`, `products`.`instock` FROM `products`; args=()
+2014-11-18 04:24:12,571 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:24:12,573 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:24:38,095 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:24:38,109 DEBUG django.db.backends (0.003) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:25:07,335 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:25:07,342 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:26:47,859 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:26:59,955 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:27:21,246 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:27:21,252 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:27:41,335 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:27:41,336 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:29:23,438 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:29:23,444 DEBUG django.db.backends (0.001) select name, value, create_date,                                        instock from products; args=()
+2014-11-18 04:29:40,767 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:29:40,783 DEBUG django.db.backends (0.001) select pid, name, value, create_date,                                        instock from products; args=()
+2014-11-18 04:30:45,190 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:30:45,203 DEBUG django.db.backends (0.001) select pid, name, value, create_date,                                        instock from products; args=()
+2014-11-18 04:35:26,401 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:35:26,406 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:35:43,526 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:35:43,528 DEBUG django.db.backends (0.002) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:36:22,438 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:36:22,446 DEBUG django.db.backends (0.003) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:39:17,854 INFO OnlineStore Home Page request has been made..
+2014-11-18 04:39:17,859 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:39:43,751 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:40:02,396 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:40:14,534 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 04:40:51,742 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 06:12:53,237 INFO OnlineStore Home Page request has been made..
+2014-11-18 06:12:53,619 DEBUG django.db.backends (0.265) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()
+2014-11-18 06:13:00,315 DEBUG django.db.backends (0.045) SELECT `customers`.`username`, `customers`.`fullname`, `customers`.`email`, `customers`.`mobile`, `customers`.`city`, `customers`.`country` FROM `customers` WHERE `customers`.`isactive` = 1 ; args=(1,)
+2014-11-18 06:13:03,707 DEBUG django.db.backends (0.001) select pid, name, value, create_date,                                        instock from products; args=()
+2014-11-18 06:13:06,541 DEBUG django.db.backends (0.001) SELECT username, orderid, name, quantity, totalvalue, ordertime         FROM orders od, products pr, customers cu WHERE cu.uid = od.uid         AND pr.pid = od.pid; args=()

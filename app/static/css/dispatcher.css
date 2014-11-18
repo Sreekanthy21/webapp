@@ -1,0 +1,92 @@
+/*
+ * dispbase.css
+ * Base styles.
+ */
+
+/* Layout Attributes */
+.full-width {
+ width: 1000px;
+}
+.align-left {
+ float: left;
+}
+.align-right {
+ float: right;
+}
+.unaligned {
+ clear: both;
+}
+
+/* Navigation Bar */
+#navigation-link-list {
+ list-style-type: none;
+ position: relative;
+ top: 60px;
+}
+#navigation-link {
+ float: right;
+ padding-left: 32px;
+}
+
+/* Menu */
+#menu {
+ float: left;
+ width: 100%;
+}
+
+/* Sidebar */
+#sidebar {
+ float: left;
+ width: 15%;
+}
+#sidebar-link {
+ height: 20px;
+}
+
+/* Content */
+#content {
+ float: right;
+ width: 85%;
+}
+
+body {
+ font: normal 10px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+ color: #4f6b72;
+ /*background: #E6EAE9;*/
+ font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ padding-left: 16px;
+ padding-right: 16px;
+}
+
+a {
+ color: #c75f3e;
+ text-decoration: none;
+}
+
+/* field layouts */
+div.label {
+ float: left;
+ text-align: right;
+ width: 100px;
+ height: 31px;
+}
+div.field {
+ float: left;
+ height: 31px;
+}
+div.error {
+ float: left;
+ height: 31px;
+ width: 150px;
+}
+ul.errorlist {
+ list-style-type: none;
+ display: inline;
+ position: relative;
+ top: -12px;
+}
+.errorlist li {
+ color: red;
+ margin-left: 5px;
+}

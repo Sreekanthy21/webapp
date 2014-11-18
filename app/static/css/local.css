@@ -1,0 +1,131 @@
+body {
+	padding-top: 40px	
+}
+
+h1 {
+    color: #CC6600;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+h2 {
+    border-bottom: 1px solid #C9E1F4;
+    color: #CC6600;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: -0.2em;
+    padding-bottom: 0;
+    padding-top: 1em;
+}
+
+h3 {
+    color: #333333;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 7px;
+}
+
+
+.img-icon {
+       width: 18px; 
+       height: 18px;
+       margin-left: 4px;
+       margin-right: 4px;
+}
+
+/**
+ *
+ * The fixed navbar interferes with the anchor targets. So using a solution from this page:
+ *  	http://stackoverflow.com/questions/9047703/fixed-position-navbar-obscures-anchors
+ */
+.anchor {
+  padding-top: 42px;
+  margin-top: -42px;
+  /* display: inline-block; /* required for webkit browsers */
+}
+
+
+/* --------------------------------- footer --------------------------------------------*/
+
+.m.footer {
+/*	background:url('/static/images/BgFooter.jpg') repeat-x; */
+	height:86px;
+}
+
+.m.footer .container {
+  padding:10px 30px;
+  position: relative;
+  width: 927px;
+  margin: 15px auto;
+}
+
+.m.footer,
+.m.footer a {
+	color: #777;
+	font-size: 11px;
+	border-bottom: none;
+}
+.m.footer a {
+	padding:0 5px;
+}
+.m.footer .browse a{
+  font-weight:bold;
+}
+.m.footer a:hover {
+	color: #999;
+    text-decoration: none;
+}
+
+.nav-menu-separator {
+    border-left: 1px solid #222222;
+    border-right: 1px solid #444444;
+    display: block;
+    float: left;
+    height: 25px;
+    margin: 8px 10px 2px 10px;
+    width: 2px;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 9998;
+}
+
+.overlay-image {
+	background:url('/xdeploy/static/images/refresh-big-loader.gif') no-repeat 50% 50%;
+}
+
+.new-label {
+	position: relative;
+	top: -2px;
+	display: inline-block;
+	padding: 0 5px;
+	font-size: 9px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #915700;
+	background-color: #f6d107;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	text-decoration: none!important;
+}
+
+.centered {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto	
+}
