@@ -1,22 +1,22 @@
 webapp
 ======
 
-Online store.
+Simple Online store.
 
 
-requirements:
+Requirements:
 
 
-1. django >= 1.3
+1. Django >= 1.3
 
 
 2. Python >= 2.7
 
 
-3. mysql database
+3. MySQL db
 
 
-setup:
+Setup:
 
 
 1. clone the repo
